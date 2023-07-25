@@ -432,11 +432,21 @@ margin-top: 30px;
     #services{
         padding-top: 0;
     }
+    .services-list div p{
+        font-size:12px;
+        font-weight:bold;
+        line-height:20px;
+    }
     #portifolio{
         padding-top:0;
     }
     #portifolio{
         padding-top: 0;
+    }
+    .layer p{
+         font-size:12px;
+        font-weight:bold;
+        line-height:20px;
     }
     .contact-left{
         display: flex;
@@ -444,9 +454,19 @@ margin-top: 30px;
         flex-basis: 100%;
         align-items: center;
     }
+    .contact-left p{
+            font-size:12px;
+    }
+    .contact-left a{
+        margin-left:100px;
+        padding-right:35px;
+    }
     .contact-right{
         margin-top: 35px;
         flex-basis: 100%;
+    }
+    .contact-right h2{
+           font-size:20px;
     }
     .copyright{
         margin-bottom: 0;
