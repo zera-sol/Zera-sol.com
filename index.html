@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Zerihun Solomon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="smallScreen.css">
+    <script src="https://kit.fontawesome.com/d7311425d0.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <div class="main-container">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo 8.png" alt="logo" class="logo">
+                <ul id="menu">
+                    <li><a href="# header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Hobby</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Zerihun</span> From <br />The Land of Origin</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------about------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="zera.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title about">About Me </h1>
+                    <p class="description">I am  a 21-year-old and have a passion for web and app development. 
+                        My hobby is spending time on coding and reading books related to this field of interest. 
+                        I have a strong skillset in front-end development, specifically in HTML, CSS, and JavaScript. 
+                        And I am now studying React.js, Node.js,Mongodb, phyton... to be a smart fullstack web developer.
+                        With my skills and interests, I will be well-positioned to pursue a career in web and app development very soon. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UX/UI</span><br>Designing Web app interfaces</li>
+                            <li><span>Web-Dev</span><br>Building responsive Websites</li>
+                            <li><span>App-Dev</span><br>Building Mobile Apps for Android and ios OS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UX/UI</span><br>1 year work Experience at Natan Printing press</li>
+                            <li><span>Web-Dev</span><br>I have built Multiple personal Websites that will be uploaded soon</li>
+                            <li><span>App-Dev</span><br>I am Studying java, c++, and python </li>
+                        </ul>
+                    </div> <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UX/UI design Tranining At Natan Printing press for 3 months</li>
+                            <li><span>since mid 2023</span><br>I started Html, css and JavaScript by my self</li>
+                            <li><span>since 2022</span><br> Studying at Addis Ababa University BSC in Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------Services------------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Our developer has extensive experience in building websites for a diverse range of clients, from small businesses to large corporations.
+                       From e-commerce sites to content management systems, our developer can build a website that meets your unique needs and requirements.
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Are you looking for an exceptional user experience (UX) and user interface (UI) design for your website or mobile app? 
+                       Look no further! Our talented UX/UI designer has the skills and expertise to create a stunning and intuitive design that will not only enhance the user experience but also increase your conversions. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>app will be posted sooner. <span id="loading">Loading....</span> </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------Portifolio-------------------------- -->
+       <div id="portifolio">
+         <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images.jpg">
+                    <div class="layer">
+                        <h3>Codding </h3>
+                        <p>Coding has also taught me the value of collaboration and communication. 
+                           As a coder, I am constantly learning from others and working with them to create something greater than the sum of its parts.
+                           I have learned that effective communication is essential to the success of any project, and that it's important to be open-minded and receptive to feedback. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images (2).jpg">
+                    <div class="layer">
+                        <h3>corporations</h3>
+                        <p>Cooperation has also helped me build strong relationships with others. 
+                            It has given me the opportunity to connect with people from diverse backgrounds and learn from their experiences. 
+                            It has taught me to appreciate the strengths and weaknesses of others and to work towards creating a positive and supportive team environment.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images (1).jpg">
+                    <div class="layer">
+                        <h3>Tutorials</h3>
+                        <p>Most importantly, giving tutorials has given me a sense of purpose and direction. 
+                           It has shown me that sharing knowledge and helping others can lead to incredible achievements and personal growth.
+                           It has also taught me to be patient and persistent, as achieving success often requires hard work and dedication.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+         </div>
+       </div>
+    <!-- __________________________________________contact______________________________________ -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>zedomanwithjesu@gmail.com</p>
+                <p><i class="fa-solid fa-phone-flip"></i> +251967243625</p>
+                <div class="socal-media-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="myCv.pdf" class="btn btn2" download> Download my CV </a>
+            </div>
+            <div class="contact-right">
+                <h2 class="sub-title"> Any Comment here</h2>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+                    <button type="submit btn2">Submit</button>
+                </form> 
+                <p id="msg"></p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; zera-sol. All right reserved!</p>
+    </div>
+   </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        var menubar = document.getElementById("menu");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+         function openmenu(){
+            menubar.style.width = "200px";
+         }
+         function closemenu(){
+            menubar.style.width = "";
+         }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx6MHlqMKqfBye4t22TT3PzEHRoTJbI_0E-PE4XQURlBsIoCXFOuur4AiGYtbx0WFJHng/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "your comment has been sent succssfully"
+                               setTimeout(function(){
+                                msg.innerHTML = ""
+                               },6000) })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
