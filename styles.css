@@ -14,8 +14,12 @@ body{
     color:white;
 }
 #header{
+    background-image: url("zeraback2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 .logo{
     padding: 0;
@@ -64,7 +68,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 60px;
     
 }
