@@ -462,13 +462,11 @@ margin-top: 30px;
     .contact-left p{
             font-size:12px;
     }
-    .contact-left a{
+    .contact-left.btn{
         margin-left:100px;
         padding-right:35px;
     }
-    .socal-media-icons a{
-        display:flex;
-    }
+   
     .contact-right{
         margin-top: 35px;
         flex-basis: 100%;
