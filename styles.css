@@ -443,8 +443,13 @@ margin-top: 30px;
     #portifolio{
         padding-top: 0;
     }
+     .layer h3{
+         margin:0;
+         padding:0;
+     }
     .layer p{
-         font-size:12px;
+        margin:0;
+        font-size:10px;
         font-weight:bold;
         line-height:20px;
     }
@@ -460,6 +465,9 @@ margin-top: 30px;
     .contact-left a{
         margin-left:100px;
         padding-right:35px;
+    }
+    .socal-media-icons a{
+        display:flex;
     }
     .contact-right{
         margin-top: 35px;
