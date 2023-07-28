@@ -28,6 +28,9 @@ body{
     width:25%;
     height: 10%;
 }
+h2{
+    color:rgba(255, 115, 0, 0.45);
+}
 #header .container nav{
     padding:5px;
     display: flex;
@@ -105,7 +108,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 40px;
     font-weight: 600;
-    color: rgba(255, 115, 0, 0.45);
+    color:white:
 }
 .description{
     margin-top: 25px;
