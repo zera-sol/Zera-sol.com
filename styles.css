@@ -105,7 +105,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: rgba(255, 115, 0, 0.45);
 }
 .description{
     margin-top: 25px;
